@@ -21,6 +21,7 @@ function walk(
   seen[curr] = true;
 
   path.push(curr);
+
   if (curr === needle) {
     return true;
   }
