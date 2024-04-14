@@ -1,7 +1,7 @@
 /**
  * The time complexity of bubble sort is O(N^2).
  * At the end of every pair of loops the highest number in the array will be at the end of it,
- * so we can reduce itss length at every iteration (- i).
+ * so we can reduce its length at every iteration (- i).
  * We also have to reduce by one because we are comparing values (j and j + 1) and
  * we don't want to go off the array.
  */
